@@ -1,0 +1,234 @@
+body{
+     background:#FFFFFF;
+}
+
+h1{
+   size:25px;
+   font-style:tahoma;
+   text-align: center;
+   color:#00000;
+}
+
+p{
+   font-style: 15px;
+   font-style: tahoma;
+   text-align: center;
+   color:#00000;
+}
+table{
+   border-style: solid;
+   border-color: red;
+   border: 2;
+   width: 90%;
+   height: 80%;
+}
+td{
+  background-color: #00000;
+  text-align: center;
+}
+th{
+   background-color: #FFC300;
+   text-align: center;
+}
+
+
+/*codigo de tabla transparente*/
+.sin{
+   border-style: transparent;
+   border: 0;
+   background-color: transparent;
+   width: 150;
+   height: 150;   
+}
+td{
+   background-color:#F0F8FF;
+   text-align: center;	
+}
+
+input{
+	type:text;
+	size:70;	
+}
+
+
+/*codigo para tabla de contacto*/
+.contacto{
+   border-style: solid;
+   border-color: #F0FFFF;
+   border: 2;
+   width:60%;
+   height: 60%;
+}
+
+/*codigo para imagenes principal*/
+.sin2{
+   border-style: transparent;
+   border: 0;
+   background-color: transparent;
+   width: 90%;
+   height: 80%;
+   
+   
+}
+ /*codigo para el logo*/
+.logo{
+    width: 400;
+	height: 250;
+	
+}
+
+/*imagenes deslizante principla*/
+.pri{
+    width:250; 
+	height:300;
+	
+}
+
+/*principal a historia*/
+.his{
+     width:200; 
+	height:150;
+}
+
+/*historia a principal*/
+.pri2{
+   width:200; 
+	height:150;
+	
+}
+
+/*imagenes de productos2*/
+.pro{
+   width:250px; 
+	height:150px;
+}
+
+/*titulo de tabla de productos*/
+.titu{
+    width: 25%;
+	border-color: red;
+}
+  
+  /*div para logo*/
+.div1{
+    width: 100%;
+	height: 400px;
+    background: url("inicio.jpg");
+    margin: auto;	
+}
+ 
+.div2{
+	background: url("fondovv.jpg");
+	margin: auto;
+	
+}
+
+.div3{
+	background:#000000;
+	margin: auto;
+	color: #FFFFFF;
+}
+ 
+.div4{
+	background:#F8F8FF;
+	margin: auto;
+	color: #FFFFFF;
+}
+
+.caja{
+     height:300px;
+	 width: 250px;
+	 border: 1px solid #eee;
+	 background: #BBDBF2;
+	 margin: 10px;
+	 color: black;
+	 text-align: center;
+	 font-family: "Lato" , sans-serif;
+	 display: inline-block;
+}
+
+.caja:hover{
+	
+	       
+        /*colocar sombra al div*/
+		/*  x  y Radio Color*/
+	box-shadow: 0 0 10px blue;
+	/*cambia el tamaño de escala del div*/
+	transform: scale(1.1);
+}
+
+.caja-texto{
+	padding-bottom: 5px;
+	padding-top: 2px;
+	font-size: 30px;
+	color: blue;
+	font-weight: bold;
+}
+
+.texto-adicional{
+	padding-top:50px;
+	font-size: 25px;
+}
+
+@font-face{
+    font-family:"mifuente";
+	src: url(cafe_matcha.ttf) ;
+	
+}
+
+#fuente-Cafe{
+     font-family:"mifuente";
+}
+
+#fuente-google{
+    font-family: "RobotoSlab", cursive;
+}	 
+	 
+.navegacion{
+    display: flex;
+    height: 100px;
+}
+ 
+.navegacion-item {
+     flex: 1;
+	 color:#000000;
+	 font-weight: bold;
+	 font-size: 15px;
+	 display: flex;
+	 transition: flex-grow 0.2s ;
+	 justify-content:center;
+	 aling-items:center;
+} 
+
+.navegacion-item:hover {
+   flex-grow: 10;
+   
+}
+ 
+
+.navegacion-item:hover  .navegacion-titulo{
+   transform:rotate(1);
+   
+  }
+  
+.navegacion-item:nth-child (1) {
+    background: url(princioall.png);
+}
+
+.navegacion-item:nth-child (2) {
+    background: url(historiaa.png);
+	
+}
+
+.navegacion-item:nth-child (3) {
+   
+     background: url(productodd.png);
+}
+	 
+.navegacion-item:nth-child (4) {
+   
+     background: url(contactoo.png);
+}
+	 
+
+
